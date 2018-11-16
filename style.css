@@ -1,17 +1,38 @@
 body {
 	font-family: 'Cinzel', serif;
-	background-image: url(images/Logo.svg);
-	background-repeat: no-repeat;
-	background-size: 50%;
 }
 
 
+.Banner {
+	background-image: url(images/Stripes.png);
+	height: 300px;
+	display: flex;
+	position: relative;
+}
+
+#Logo {
+	position: absolute;
+}
 
 #Name {
 	font-family: 'Cinzel', serif;
 	font-size: 900%;
-	margin:3% 3% 0 0;	
-	text-align: right;
+	color: #e2032f;
+	margin: auto 3% auto auto;
+}
+
+#Name:hover {
+	text-decoration: none;
+}
+
+#CTA {
+	font-size: 100%;
+	font-family: 'Cinzel', serif;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 75%;
+	right: 55%;
 }
 
 #search {
@@ -28,18 +49,9 @@ body {
 	background-position: top 50% right 8px;
 	background-repeat: no-repeat;
 }
+
 #Searchbar {
 	margin-right: 10px;
-}
-
-.hasard {
-	width: 30%;
-	height: 20%;
-	margin:auto;
-	font-family: 'Cinzel', serif;
-	font-size: auto;
-	text-align: center;
-	float: center;
 }
 
 hr {
@@ -62,6 +74,11 @@ h1 {
 
 #Vente {
 	margin-left: 21%;
+}
+
+h2{
+	font-family: 'Cinzel', serif;
+	font-size: 150%;
 }
 
 .panel-title { 
@@ -107,7 +124,15 @@ h1 {
 	text-align: center;
 }
 
+#mc_embed_signup {
+	font-family: 'Cinzel', serif;
+	text-align: center;
+	font-color: #000000;
+	padding: 20px;
+}
+
 .footer {
+	font-family: 'Cinzel', serif;
 	background: #F4F4F4;
 	display: flex;
 	align-items: center;
@@ -131,25 +156,4 @@ h1 {
 	opacity: 1;
 	color: red;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
